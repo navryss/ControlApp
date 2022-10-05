@@ -17,8 +17,8 @@ namespace ControlApp
     {
         //private FtdiFifo _Ftdififo;
         //private readonly string allowedSerialNumber = "NL51G6ZIA";
-        
 
+        private MgemDetector _MgemDetector;
         private USBdataHandler _USBdataHandler;
         private Ddc _Ddc;
 
